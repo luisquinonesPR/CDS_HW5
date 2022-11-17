@@ -1,0 +1,7 @@
+Commands for local virtual environment setup:
+
+conda create --name hw5_env python=3.9.13
+
+conda activate hw5_env
+
+pip install seaborn matplotlib jupyter sklearn pandas
