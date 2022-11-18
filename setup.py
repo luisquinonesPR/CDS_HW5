@@ -19,7 +19,7 @@ def get_requirements(requirements_path='requirements.txt'):
 
 
 setuptools.setup(
-    name='luis quiñones, tobias pfeiffer, giovanna chaves',
+    name='luis quinones, tobias pfeiffer, giovanna chaves',
     version='0.1',
     description='CDS_HW5',
     author='Luis Quiñones',
