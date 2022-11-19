@@ -2,4 +2,4 @@
 
 Authors:
 
-Tobi Pfeiffer, Giovanna Chaves, Luis Quiñones
+Tobias Pfeiffer, Giovanna Chaves, Luis Quiñones
