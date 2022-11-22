@@ -10,18 +10,18 @@
 # an exception with the following message:
 # "Undefined instruction for color: <light>"
 # where <light> is the value of the parameter light.
-#
+# comment
 
 def car_at_light(light):
     if light == "red":
         return "stop"
-        
+
     elif light == "green":
         return "go"
-            
+
     elif light == "yellow":
         return "wait"
-    
+
     else:
         raise Exception("Undefined instruction for color: " + str(light))
 
@@ -53,7 +53,7 @@ safe_subtract(1, 5)
 # that handles both examples.
 # Name the first function "retrieve_age_eafp" and follow EAFP
 # Name the second function "retrieve_age_lbyl" and follow lbyl
-my_dict1 = {'name': 'John', 'last_name': 'Doe', 'birth': 1987} 
+my_dict1 = {'name': 'John', 'last_name': 'Doe', 'birth': 1987}
 my_dict2 = {'name': 'Janet', 'last_name': 'Bird', 'gender': 'female'}
 
 def retrieve_age_eafp(dict):
@@ -111,7 +111,7 @@ for elem in [10, 5, 2]:
 
 total_double_sum
 
-## The error here is that total_double_sum adds the elements in the list, not the double elements. 
+## The error here is that total_double_sum adds the elements in the list, not the double elements.
 ## That is, we are doubling the numbers but summing over the oriignals, rather than the doubled.
 ## To correct it, we would need:
 total_double_sum2 = 0
@@ -124,7 +124,7 @@ strings = ''
 for string in ['I', 'am', 'Groot']:
     strings = string+"_"+string
 
-## The error here is that strings is concatenating the individual elements twice, rather than looping through each element. 
+## The error here is that strings is concatenating the individual elements twice, rather than looping through each element.
 ## To correct it, we would need to add each element to strings, although nota that this would leave us with a string that begins with "_".
 strings = ''
 for string in ['I', 'am', 'Groot']:
@@ -135,7 +135,7 @@ j=10
 while j > 0:
    j += 1
 
-## The error here is that our while loop continues forever, as we have not specified when it should break. 
+## The error here is that our while loop continues forever, as we have not specified when it should break.
 ## To correct it, we would need to add a break once j reaches a specified value, such as 100.
 
 j=10
@@ -149,7 +149,7 @@ productory = 0
 for elem in [1, 5, 25]:
     productory *= elem
 
-## The error here is that we specify productory = 0. That means in the for loop we multiply the element by 0, which results in... 0! 
+## The error here is that we specify productory = 0. That means in the for loop we multiply the element by 0, which results in... 0!
 ## To correct it, we could add a step in the for loop in which define productory to be equal to the element, and then multiply them.
 
 productory = 0
@@ -169,7 +169,7 @@ for elem in [1, 5, 25]:
 list1 = ["Simba and Nala are lions.", "I laugh in the face of danger.", "Hakuna matata", "Timon, Pumba and Simba are friends, but Simba could eat the other two."]
 def count_simba(list):
     return sum(map(lambda x: 'Simba' in x, list))
-    
+
 count_simba(list1)
 
 # 7)
@@ -235,5 +235,5 @@ def sum_general_int_list(my_list):
         else:
             sum += i
     return sum
-    
+
 sum_general_int_list(list_1)
