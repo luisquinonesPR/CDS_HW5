@@ -3,3 +3,7 @@ conda create --name testenv
 conda activate testenv
 
 conda install pytest pylint pandas -c conda-forge --yes
+
+conda install -c conda-forge pytest-cov
+
+pytest --cov-report term --cov-report xml:coverage.xml --cov=src
