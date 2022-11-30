@@ -1,0 +1,5 @@
+conda create --name testenv
+
+conda activate testenv
+
+conda install pytest pylint pandas -c conda-forge --yes
